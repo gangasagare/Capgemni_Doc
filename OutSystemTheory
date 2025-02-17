@@ -1,0 +1,52 @@
+--Forge element: In our development time we used different plugins like camera plugin for user registration record, google map for denoting branches of telecom offices  and also closely work with outsystem data grid.
+--Rest API we used in our application for accessing and managing various functionality like checking different data plans, history of payments, location searches. of different branches, network signal strength information, live chat with customer service
+
+--platform level" refers to the core functionalities and components provided by the OutSystems platform itself, allowing developers to build applications on top of it, while "application level" refers to the specific features and logic within an individual application created using the OutSystems platform
+--Application level:
+Focuses on the specific logic, screens, and data interactions within a single application. 
+Developers can customize and design features unique to each application within the platform's framework. 
+Typically managed by individual application development teams. 
+
+"platform level" refers to the core functionalities and components provided by the OutSystems platform itself, allowing developers to build applications on top of it, while "application level" refers to the specific features and logic within an individual application created using the OutSystems platform"
+
+--A "use case" refers to a detailed description of how a user  interacts with a system to achieve a specific goal, outlining the steps they take and the interactions with the system to complete a particular task; essentially, it's a scenario that explains how someone might use something to accomplish a desired outcome,
+"Example: Use case for an online shopping website: A customer browses product categories, selects an item, adds it to their cart, enters their shipping information, chooses a payment method, and completes the purchase."
+
+--Service action: Service Actions are used to expose reusable business logic and services that can be shared across multiple modules or applications.
+They are designed to be reusable and maintainable, promoting code reusability and modularization. Service actions can be used to integrate with other apps, such as third-party APIs. "Service actions can be used to perform specific tasks such as accessing data, sending emails, or making API calls. "
+In a Service module you define the elements that compose your core services:
+
+The service logic, using Server Actions and Service Actions.
+Integrations such as REST.
+Processes and Timers.
+Database Entities.
+
+-- Producer Module: Modules that share features are producer module
+--Consumer Module: Module that use features from other modules  are called consumer module
+
+----Built-in Validations:
+Built-in validations for input Widgets are performed automatically
+Mandatory fields must be filled
+input values must comply with datatype of the variables bounded to the widget.
+ 
+--Different types of delete rules: Protect, Delete or Ignore.
+Protect: Setting the Delete Rule to Protect prevents deleting records of the main Entity while there are associated records in the related Entity.
+Delete: Setting the Delete Rule to Delete guarantees that when a record of the main Entity is deleted, all the associated records in the related Entities are also deleted.
+ 
+This mechanism is commonly known as Cascade Delete ignore-Setting the Delete Rule to Ignore allows deleting records of the main Entity keeping the associated records in the related Entity
+In OutSystems, the following options of deletion rules are available to guarantee the referential
+ 
+data integrity:
+ 
+Protect and Delete, only.
+ 
+Although "Ignore" is one of the options, it does not guarantee referential integrity.
+
+Structures: structures are collections of attributes each of having specified data types, structure are often used to define the format of data that is not directly stored in database.
+
+--LifeTime: is a unified console with visibility of all environments in your infrastructure. It manages the deployment of applications, IT users, and security across all environments.
+It is environment management console can where user can manage environment specific operations.
+e.g. Module Publish, Role Management, Environment Properties settings
+
+
+
